@@ -1,0 +1,8 @@
+<router-outlet></router-outlet>
+<button (click)="addingTwoNumbers()">click</button>
+<div class="row" >
+  <div class="col-4" *ngFor="let item of data">
+    <button (click)="testing(item.name)">{{item.name}}</button>
+  </div>
+</div>
+
